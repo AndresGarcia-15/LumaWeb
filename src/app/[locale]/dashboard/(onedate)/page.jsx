@@ -61,7 +61,7 @@ const Page = () => {
             }
 
             const response = await fetch(
-              `/api/get-data?date=${fixDate(selectedDate)}`
+              `https://lumaweb-api-container.azurewebsites.net/api/get-data?date=${fixDate(selectedDate)}`
             );
             const result = await response.json();
             let dataFound = false;
