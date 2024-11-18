@@ -79,7 +79,7 @@ const Page = () => {
 
   //getting data by range
   const getData = () => {
-      fetch(`/api/get-range?startDate=${selectedRange?.from}&endDate=${selectedRange?.to}`)
+      fetch(`https://lumaweb-api-container.azurewebsites.net/api/get-range?startDate=${selectedRange?.from}&endDate=${selectedRange?.to}`)
           .then(res => res.json())
           .then(data => {
               setRawData(data);
