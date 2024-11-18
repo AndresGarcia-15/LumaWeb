@@ -34,6 +34,6 @@ jobs:
       with:
         app-name: LumaWebApp-unique-proyecto
         slot-name: Production
-        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BAC93C82C5AC47F7B434BB2D209A1542 }}
+        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9A807D96EE1A450985AA1FE3A704CDD6 }}
         package: .
 
